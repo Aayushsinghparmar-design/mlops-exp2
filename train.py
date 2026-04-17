@@ -1,5 +1,2 @@
-import mlflow
-
-with mlflow.start_run():
-    mlflow.log_param("epochs",10)
-    mlflow.log_metric("accuracy",95)
+print("Training Started")
+print("Model Trained Successfully")
